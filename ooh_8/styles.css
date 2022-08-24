@@ -1,0 +1,35 @@
+.col-box{
+    border-radius: 0.6rem;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.profile-img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.mlink{
+    color: black !important;
+}
+
+body{
+    background-color: #F5F5F7;
+}
+
+.btn-primary{
+    margin-top: 4px;
+    background-color: #F0EEFF !important;
+    border-color: #F0EEFF !important;
+    color: #6D55FF !important;
+    font-size: 0.9rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+h3{
+    color: #999;
+    font-size: 1.2rem;
+}
