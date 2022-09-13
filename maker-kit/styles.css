@@ -1,0 +1,126 @@
+body{
+    color: white;
+}
+
+.product-card{
+    text-decoration: none !important;
+    width: 18rem;
+}
+
+.product-card:hover{
+    background-color: #555;
+}
+
+.list-group-item{
+    color: white !important;
+    background-color: transparent !important;
+    border-color: rgb(205, 205, 205) !important;
+}
+
+.list-group{
+    background-color: transparent !important;
+    border-color: rgb(205, 205, 205) !important;
+}
+
+.sort-badge{
+    font-weight: normal !important;
+    background-color: #222 !important;
+}
+
+.logo-img{
+    width: 13% !important;
+}
+
+.productName{
+    font-weight: bold !important;
+    font-size: 1.6rem !important;
+}
+
+.productPreview{
+    color: rgb(200, 200, 200) !important;
+}
+
+.benefitPreview{
+    color: white !important;
+}
+
+
+.btn-product{
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color: transparent !important;
+    color: rgb(199, 0, 199) !important;
+    border-color: rgb(199, 0, 199) !important;
+    padding: 4px 10px;
+    border-radius: 16px;
+}
+
+.makerlogLink{
+    text-decoration: none !important;
+}
+
+.makerlog-content{
+    margin-left: 2rem;
+}
+
+.makerlogTitle{
+    color: white !important;
+}
+.makerlogPreviewText{
+    color: #999 !important;
+}
+.modal-subtitle-2{
+    color: rgb(199, 0, 199);
+}
+
+.btn-m-1{
+    background-color: transparent !important;
+    border-color: #F0EEFF !important;
+    color: white !important;
+}
+
+.btn-m-2{
+    text-decoration: none !important;
+}
+
+.btn-m-2:hover{
+    background-color: rgb(199, 0, 199) !important;
+    border-color: rgb(199, 0, 199) !important;
+}
+
+.profileImg{
+    border-radius: 100px;
+    width: 2.8rem;
+}
+
+.maker-description{
+    --bs-gutter-x: 1rem !important;
+    display: flex !important;
+    background-color: #222;
+    margin: 0.2rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    width: max-content !important;
+}
+.profileRole{
+    color: rgb(205, 205, 205) !important;
+}
+.profileName{
+    color: white !important;
+}
+.maker-button{
+    text-decoration: none !important;
+}
+
+
+.modal-content{
+    background-color: #131313 !important;
+    border-color: white;
+    box-shadow: 4px 4px 8px rgba(128, 0, 128, 0.8);
+    width: 800px !important;
+    max-width: none !important;
+}
+
+.modal-header{
+    justify-content: unset !important;
+}
