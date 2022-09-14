@@ -112,7 +112,7 @@ export default [
   {
     "productId": 5,
     "productName": "센드타임",
-    "productPreview": "B2B 비즈니스 미팅 스케줄링에는 sendtime! 😎",
+    "productPreview": "B2B 비즈니스 미팅 스케줄링에는 sendtime!",
     "benefitPreview": "개인 및 그룹 스케줄링 무제한 사용 <br>+ 무료 사용 기간을 기본 3개월",
     "tag1": "💸 세일즈",
     "tag2": "🚲 생산성",
@@ -266,7 +266,7 @@ export default [
   {
     "productId": 12,
     "productName": "되는시간",
-    "productPreview": "되는시간 - 내가 되는 시간을 상대방이 예약할 수 있어요.",
+    "productPreview": "되는시간 - 내가 되는 시간을 <br> 상대방이 예약할 수 있어요.",
     "benefitPreview": "무료 1개월 사용권",
     "tag1": "💸 세일즈",
     "tag2": "💻 노코드",
