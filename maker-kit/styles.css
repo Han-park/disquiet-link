@@ -11,7 +11,7 @@ body{
 
 @media only screen and (min-width: 750px){
     .product-card{
-        background-color: #1313138a;
+        background-color: #1313138a !important;
         text-decoration: none !important;
         width: 18rem;
         margin: 0.4rem;
@@ -28,6 +28,7 @@ body{
 
 @media only screen and (max-width: 749px){
     .product-card{
+        background-color: #1313138a !important;
         text-decoration: none !important;
         width: 23rem !important;
         margin: 0.4rem;
