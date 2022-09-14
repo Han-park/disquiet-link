@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disquiet</title>
+    <title>Maker Kit</title>
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -13,31 +13,42 @@
 </head>
 <body style="background-color: #131313;">
 
-    <nav class="navbar bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+  <canvas id="canvas" class="background-canvas" width="32" height="32" style="width: 100%; height: 100%; position: fixed; top:0; z-index:-2;"></canvas>
+  <img src="bin/noise-2.jpg" style="width: 100%; height: 100%; position: fixed; mix-blend-mode: multiply; opacity: 50%; z-index:-1;" alt="">
+
+    <!-- <a href="https://disquiet.io"> -->
+      <nav class="navbar bg-dark" style="background-color: rgba(0, 0, 0, 0.500) !important;" onclick="location.href='https://disquiet.io';">
+        <div class="container">
+          <a class="navbar-brand" href="https://disquiet.io"><img src="bin/disquiet_logo_dark.svg" alt="DISQUIET" style="fill: white; border-color: white; height: 30px; margin-left: 6px; position: static !important;"></a>
         </div>
       </nav>
+    <!-- </a> -->
 
     <div class="container">
 
-        <br>
+      <div class="container mt-5 text-center">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Maker Kit</h1>
+          </div>
+          <div class="col-md-6">
+            <h4 id="mastheadDescription">디스콰이엇에서 활발히 활동하시는 메이커분들께<br>할인 또는 무료 사용 등의 혜택을 제공합니다.</h4>
+          </div>
 
-        <h1>Disquiet<br>Maker Kit</h1>
-
+          </div>
         <br><br>
 
-        <div id="cardHere"></div>
+        <div id="cardHere" style="margin-left: auto;"></div>
 
       
   </div> <!--container -->
 
 
-    <footer class="m-2">
+    <footer class="m-5">
 
-        <p class="mt-4"><b>Linked</b> by Disquiet*</p>
+        <p class="mt-4"><b>Maker Kit</b> by Disquiet*</p>
+        <a style="color: white;" href="https://tally.so/r/31AxoQ">여기에 프로덕트를 등록하고 싶으신가요?</a>
         <div class="attribution" style="text-align: left; font-size: 0.6rem; color: #999;">
-            <!-- link-symbol icon was provided by simpleicon.com, under the Creative Commons Attribution 3.0 Unported license. -->
         </div>
         <div style="margin-bottom: 100px;"></div>
     </footer>
@@ -46,7 +57,9 @@
 
 
 
- <div id="modalHere"></div>
+ <div id="modalHere">
+  
+ </div>
     
     
 </body>
@@ -61,7 +74,7 @@
 
     `<a type="button" id="card-` + [i] + `" class="product-card" data-bs-toggle="modal" data-bs-target="#modal-` + [i] + `">
     <ul class="list-group">
-      <li class="list-group-item">
+      <li class="list-group-item list-productSide">
           <img class="mt-2 logo-img" src="img/` + [i] + `.png" alt="logo">
           <h5 class="card-title mt-2 productName">` + d[i].productName + `</h5>
           <p class="card-text productPreview">` + d[i].productPreview + `</p>
@@ -83,7 +96,7 @@
 
 
     for(let i=0; i<d.length; i++){
-      document.getElementById("cardHere").insertAdjacentHTML("beforeEnd",
+      document.getElementById("modalHere").insertAdjacentHTML("beforeEnd",
 
     `<div class="modal fade" id="modal-`+[i]+`" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -157,5 +170,5 @@
 
 
   </script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script><script src="bin/script.js"></script>
 </html>

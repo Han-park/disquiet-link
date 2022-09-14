@@ -2,10 +2,47 @@ body{
     color: white;
 }
 
-.product-card{
-    text-decoration: none !important;
-    width: 18rem;
+
+#mastheadDescription{
+    position: relative;
+    top: 40%;
+    /* color: red; */
 }
+
+@media only screen and (min-width: 750px){
+    .product-card{
+        background-color: #1313138a;
+        text-decoration: none !important;
+        width: 18rem;
+        margin: 0.4rem;
+        text-align: left !important;
+        justify-content:flex-start !important;
+    }
+    .list-productSide{
+        height: 220px;
+    }
+    h1{
+        font-size: 7rem !important;
+    }
+}
+
+@media only screen and (max-width: 749px){
+    .product-card{
+        text-decoration: none !important;
+        width: 23rem !important;
+        margin: 0.4rem;
+        text-align: left !important;
+        justify-content:flex-start !important;
+    }
+    .list-productSide{
+        height: 220px;
+    }
+    h1{
+        font-size: 5rem !important;
+    }
+}
+
+
 
 .product-card:hover{
     background-color: #555;
@@ -24,7 +61,7 @@ body{
 
 .sort-badge{
     font-weight: normal !important;
-    background-color: #222 !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .logo-img{
@@ -44,6 +81,9 @@ body{
     color: white !important;
 }
 
+.modal-content{
+    margin: 10px;
+}
 
 .btn-product{
     text-decoration: none;
@@ -71,6 +111,9 @@ body{
 }
 .modal-subtitle-2{
     color: rgb(199, 0, 199);
+    font-size: 0.9rem;
+    margin-top: -3px;
+    margin-bottom: 8px;
 }
 
 .btn-m-1{
@@ -91,6 +134,7 @@ body{
 .profileImg{
     border-radius: 100px;
     width: 2.8rem;
+    height: 2.8rem;
 }
 
 .maker-description{
@@ -116,7 +160,7 @@ body{
 .modal-content{
     background-color: #131313 !important;
     border-color: white;
-    box-shadow: 4px 4px 8px rgba(128, 0, 128, 0.8);
+    box-shadow: 6px 6px 8px rgba(128, 0, 128, 0.8);
     width: 800px !important;
     max-width: none !important;
 }
