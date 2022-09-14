@@ -57,7 +57,7 @@
 
     <footer class="m-5">
 
-        <p class="mt-4"><b>Maker Kit</b> by Disquiet*</p>
+        <p class="mt-4"><b>메이커 키트</b> by Disquiet*</p>
         <a style="color: white;" href="https://tally.so/r/31AxoQ">여기에 프로덕트를 등록하고 싶으신가요?</a>
         <div class="attribution" style="text-align: left; font-size: 0.6rem; color: #999;">
         </div>
@@ -83,7 +83,7 @@
     for(let i=0; i<d.length; i++){
       document.getElementById("cardHere").insertAdjacentHTML("beforeEnd",
 
-    `<a type="button" id="card-` + [i] + `" class="product-card" data-bs-toggle="modal" data-bs-target="#modal-` + [i] + `">
+    `<a id="card-` + [i] + `" class="product-card" data-bs-toggle="modal" data-bs-target="#modal-` + [i] + `">
     <ul class="list-group">
       <li class="list-group-item list-productSide">
           <img class="mt-2 logo-img" src="img/` + [i] + `.png" alt="logo">
