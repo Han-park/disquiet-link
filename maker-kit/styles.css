@@ -13,10 +13,10 @@ body{
     .product-card{
         background-color: #1313138a !important;
         text-decoration: none !important;
-        width: 18rem;
+        width: 18rem !important;
         margin: 0.4rem;
         text-align: left !important;
-        justify-content:flex-start !important;
+        display: inline-block !important;
     }
     .list-productSide{
         height: 220px;
@@ -33,7 +33,7 @@ body{
         width: 23rem !important;
         margin: 0.4rem;
         text-align: left !important;
-        justify-content:flex-start !important;
+        display: inline-block !important;
     }
     .list-productSide{
         height: 220px;
