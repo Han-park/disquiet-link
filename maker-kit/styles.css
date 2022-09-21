@@ -97,6 +97,10 @@ body{
     border-color: rgb(205, 205, 205) !important;
 }
 
+.list-badgeSide{
+    padding: 8px 8px !important;
+}
+
 .sort-badge{
     font-weight: normal !important;
     background-color: rgba(0, 0, 0, 0.3) !important;
