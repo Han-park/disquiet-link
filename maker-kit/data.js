@@ -19,7 +19,7 @@ export default [
     "profileLink": "https://disquiet.io/@listovey_platfrom?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%EB%A6%AC%EC%8A%A4%ED%86%A0%EB%B2%A0%EC%9D%B4?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": 3
+    "popularity": ""
   },
   {
     "productId": 1,
@@ -41,7 +41,7 @@ export default [
     "profileLink": "https://disquiet.io/@doda_tool?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%EB%8F%84%EB%8B%A4-%ED%88%B4?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": 2
+    "popularity": 3
   },
   {
     "productId": 2,
@@ -63,7 +63,7 @@ export default [
     "profileLink": "https://disquiet.io/@wonderz?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%ED%8E%98%EB%84%B7-%EC%B2%B4%EC%BB%A4?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": 1
+    "popularity": ""
   },
   {
     "productId": 3,
@@ -151,7 +151,7 @@ export default [
     "profileLink": "https://disquiet.io/@woojin_kim?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/타입드/?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 1
   },
   {
     "productId": 7,
@@ -327,7 +327,7 @@ export default [
     "profileLink": "https://disquiet.io/@stauter?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/스타우터/?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 3
   },
   {
     "productId": 15,
@@ -371,7 +371,7 @@ export default [
     "profileLink": "https://disquiet.io/@dwhale_hyem?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/clap?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 1
   },
   {
     "productId": 17,
@@ -393,7 +393,7 @@ export default [
     "profileLink": "https://disquiet.io/@junghyun?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/슬리드/?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 1
   },
   {
     "productId": 18,
@@ -415,7 +415,7 @@ export default [
     "profileLink": "https://disquiet.io/@shawnice?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%EB%AF%B8%EB%9D%BC%ED%81%B4%EB%82%98%EC%9E%87?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 1
   },
   {
     "productId": 19,
@@ -530,7 +530,7 @@ export default [
   {
     "productId": 24,
     "productName": "mmhmm",
-    "productPreview": "이제 미팅은 그만, 녹화된 영상으로 커뮤니케이션에 슈퍼파워를!",
+    "productPreview": "이제 미팅은 그만, 녹화된 영상으로<br>커뮤니케이션에 슈퍼파워를!",
     "benefitPreview": "1개월 무료 프리미엄",
     "tag1": "🚲 생산성",
     "tag2": "✏️ 교육",

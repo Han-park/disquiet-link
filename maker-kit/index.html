@@ -56,12 +56,20 @@
           </div>
 
           </div>
-        <br><br>
+        
+          <br>
 
-      
-        <div class="row" id="cardHere" style="text-align: center;">
-          
+        <div id="product-card-wrapper">
+          <div style="text-align: right !important;" class="mb-1">
+          <select class="form-select" aria-label="Default select example">
+            <option value="0">인기순</option>
+            <option value="1">등록순</option>
+            <option value="2">최신순</option>
+          </select>
         </div>
+
+        <div class="row" id="cardHere" style="text-align: center;"></div>
+      </div>
 
 
       
@@ -103,16 +111,22 @@
 <script type="module">
         
   import d from "./data.js";
-    console.log(d);
 
+    const selectElement = document.querySelector('.form-select');
+
+    d.sort(function(b, a){ return a.popularity - b.popularity;});
+ 
+  function printResult(){
+
+    document.getElementById("cardHere").innerHTML = "";
     for(let i=0; i<d.length; i++){
       document.getElementById("cardHere").insertAdjacentHTML("beforeEnd",
 
-    `<div class="col-12 col-md-6 col-lg-4">
-    <a id="card-` + [i] + `" class="product-card" data-bs-toggle="modal" data-bs-target="#modal-` + [i] + `">
+    `<div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+    <a id="card-` + d[i].productId + `" class="product-card" data-bs-toggle="modal" data-bs-target="#modal-` + d[i].productId + `">
     <ul class="list-group">
       <li class="list-group-item list-productSide">
-          <img class="mt-2 logo-img" src="img/` + [i] + `.png" alt="logo">
+          <img class="mt-2 logo-img" src="img/` + d[i].productId + `.png" alt="logo">
           <h5 class="card-title mt-2 productName">` + d[i].productName + `</h5>
           <p class="card-text productPreview">` + d[i].productPreview + `</p>
           <p class="card-text benefitPreview mb-2">`
@@ -132,12 +146,54 @@
 
       );
     };
+    console.log("prtRes Excuted");
+  };
+
+  printResult();
+
+  selectElement.addEventListener('change', (event) =>{
+      console.log(event.target.value);
+
+      switch (event.target.value){
+
+        case "0":
+          d.sort(function(b, a){
+          return a.popularity - b.popularity;});
+          // console.log(d);
+          printResult();
+          // console.log("case 2");
+          break;
+
+
+        case "1":
+          d.sort(function(b, a){
+          return b.popularity - a.popularity;});
+          d.sort(function(b, a){
+          return b.productId - a.productId;});
+          // console.log(d);
+          printResult();
+          // console.log("case 1");
+          break;
+
+          case "2":
+          d.sort(function(b, a){
+          return a.productId - b.productId;});
+          // console.log(d);
+          printResult();
+          // console.log("case 2");
+          break;
+        
+
+      }
+    
+      // console.log("hello");
+    });
 
 
     for(let i=0; i<d.length; i++){
       document.getElementById("modalHere").insertAdjacentHTML("beforeEnd",
 
-    `<div class="modal fade" id="modal-`+[i]+`" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    `<div class="modal fade" id="modal-`+ d[i].productId +`" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 
     <div class="modal-content">

@@ -14,6 +14,21 @@ body{
     /* color: red; */
 }
 
+.form-select{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: white !important;
+    width: 100px !important;
+    position: static !important;
+    /* right: 0; */
+    margin-right: 0.6rem;
+    display: inline !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+}
+.form-select:focus {
+    box-shadow: none !important;
+}
+
 @media only screen and (min-width: 750px){
     .product-card{
         /* margin: auto !important; */
