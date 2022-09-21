@@ -2,6 +2,11 @@ body{
     color: white;
 }
 
+.navbar{
+    background-color: rgba(0, 0, 0, 0.500) !important;
+    /* background-color: #111; */
+}
+
 
 #mastheadDescription{
     position: relative;
@@ -11,14 +16,13 @@ body{
 
 @media only screen and (min-width: 750px){
     .product-card{
-        margin: auto !important;
+        /* margin: auto !important; */
         background-color: #1313138a !important;
         text-decoration: none !important;
         width: 19rem !important;
-        margin: 0.4rem;
+        margin: 0.6rem;
         text-align: left !important;
         display: inline-block !important;
-        /* justify-content: space-around !important; */
     }
     .list-productSide{
         height: 220px;
@@ -31,52 +35,24 @@ body{
         h4{
             font-size: 1rem !important;
         }
-        #cardHere{
-            transform: translateX(7vw);
-        }
     }
     @media only screen and (max-width: 1199px){
         h4{
             font-size: 1rem !important;
         }
-        #cardHere{
-            transform: translateX(10vw);
-        }
         }
 
 }
 
-
-    /* display: grid;
-    gap: 8px 8px;
-    grid-template-columns: 1fr 1fr 1fr; */
-    /* block-size: fit-content !important; */
-    /* display: inline; */
-   
-    /* text-align: center; */
-    /* position: relative; */
-    /* margin-left: 50px; */
-    /* margin-inline:; */
-    /* justify-content: space-around !important; */
-
-
-/* .product-card-wrapper{
-    display: flex;
-    justify-content: center;
-
-
-} */
-
 @media only screen and (max-width: 749px){
     .product-card{
-        margin: auto !important;
+        /* margin: auto !important; */
         background-color: #1313138a !important;
         text-decoration: none !important;
-        width: 21rem !important;
-        margin: 0.4rem;
+        width: 21rem !important; 
+        margin: 0.6rem;
         text-align: left !important;
         display: inline-block !important;
-        /* justify-content: space-between !important; */
     }
     .list-productSide{
         height: 220px;
@@ -86,9 +62,6 @@ body{
     }
     h4{
         font-size: 1rem;
-    }
-    #cardHere{
-        transform: translateX(10vw);
     }
 }
 
