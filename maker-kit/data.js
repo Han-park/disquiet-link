@@ -548,5 +548,27 @@ export default [
     "productLink": "https://disquiet.io/product/mmhmm?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
     "popularity": ""
+  },
+  {
+    "productId": 25,
+    "productName": "서플",
+    "productPreview": "지하철 환경 기반<br>모바일 광고 콘텐츠 플랫폼",
+    "benefitPreview": "광고 크레딧 지급 및 광고 혜택",
+    "tag1": "🔮 마케팅툴",
+    "tag2": "📷 라이프스타일",
+    "tag3": "📡 중개 플랫폼",
+    "productDetail": "서플은 새로운 광고문화를 위해 지하철 공간에 집중합니다!<br>지하철은 시선을 돌리지 않는 광고회피가 제한되는 공간입니다. 서플은 탑승 여부를 구분하고 이를 이용해 온전히 광고 콘텐츠에 집중할 수 있는 환경을 제공 합니다.",
+    "benefitDetail": "서플의 4.5만 유저들을  클라이언트의 홈페이지 다이렉트 랜딩 서비스 제공<br>서플은 지하철과 버스 이용자들을 대상으로 모바일 광고콘텐츠를 제공하며 동영상과 홈페이지를 동시에 송출하여 제품의 정보전달력을 극대화 시키고 있습니다.<br>- 앱, 웹, 트레픽, 매출증대 솔루션<br><br>혜택<br>1. 디스콰이엇 메이커들에게는  유료광고진행시25% 광고 크레딧 추가 지급<br>2. 광고 진행시  앱 메인 배너 광고 1주일 무료제공<br>2. 무료 노출 광고 제공(맴버십)",
+    "isMakerlog": 0,
+    "makerlogTitle": "",
+    "makerlogPreviewtext": "",
+    "makerlogLink": "",
+    "profileImg": "https://assets.disquiet.io/images/profile/8c55943de424627d34bfe8cdf910575a862ffae32060e8e5a851b12485eaec03",
+    "profileName": "나현석",
+    "profileRole": "Co-founder @서플",
+    "profileLink": "https://disquiet.io/@subple?utm_source=makerkit",
+    "productLink": "https://disquiet.io/product/서플?utm_source=makerkit",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
   }
 ];
