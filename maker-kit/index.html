@@ -133,7 +133,7 @@
             + d[i].benefitPreview + `</p>
       </li>
 
-      <li class="list-group-item list-badgeSide">
+      <li class="list-group-item list-badge">
           <span class="badge sort-badge tag1">` + d[i].tag1 + `</span>
           <span class="badge sort-badge tag2">` + d[i].tag2 + `</span>
           <span class="badge sort-badge tag3">` + d[i].tag3 + `</span>
@@ -157,6 +157,8 @@
       switch (event.target.value){
 
         case "0":
+          d.sort(function(b, a){
+          return b.productId - a.productId;});
           d.sort(function(b, a){
           return a.popularity - b.popularity;});
           // console.log(d);
