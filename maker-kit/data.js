@@ -570,5 +570,27 @@ export default [
     "productLink": "https://disquiet.io/product/서플?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
     "popularity": ""
+  },
+  {
+    "productId": 26,
+    "productName": "effi.io",
+    "productPreview": "버그리포팅 • 디자인 QA가<br>놀랍도록 간편해집니다",
+    "benefitPreview": "러쉬 요금제 6개월간 무료",
+    "tag1": "🎮 게임",
+    "tag2": "🎨 디자인",
+    "tag3": "🚲 생산성",
+    "productDetail": "버그 리포팅 • 디자인 QA는 원래 이랬어야죠.  ✔️동영상 / 이미지에 손쉽게 이슈영역을 표시하여 전달할 수 있어요. (홈페이지에서 체험모드 제공) ✔️모바일 스크린샷을 간편하게 effi웹으로 불러와서 커멘트할 수 있어요. ✔️JIRA와의 완벽한 양방향 싱크(댓글/내용수정도 싱크) ✔️기기명과 OS버전을 자동으로 기록해 드려요. ✔️여러 테스트빌드를 올리고 다운받을 수 있는 페이지를 제공해 드려요.",
+    "benefitDetail": "디스콰이엇을 통해 effi.io를 시작하시는 분께는 러쉬 요금제까지 6개월간 무료로 제공해드립니다($600 상당)🎅👍",
+    "isMakerlog": 0,
+    "makerlogTitle": "",
+    "makerlogPreviewtext": "",
+    "makerlogLink": "",
+    "profileImg": "https://assets.disquiet.io/images/profile/cd6d6975cbffa2f7d18e0b785b03324afd6ef4337ee0588bdc51698950ebac28",
+    "profileName": "최동규",
+    "profileRole": "PM @effi.co",
+    "profileLink": "https://disquiet.io/@dgchoi",
+    "productLink": "https://disquiet.io/product/effi",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
   }
 ];
