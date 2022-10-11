@@ -640,8 +640,8 @@ export default [
   {
     "productId": 29,
     "productName": "엑소스피어",
-    "productPreview": "SaaS형 올인원(PC백신+정보유출예방) <br>PC보안 서비스",
-    "benefitPreview": "무료 기업용 PC백신 제공, 온라인 데모 신청 시 사은품, 유료플랜 1개월 체험권 증정",
+    "productPreview": "SaaS형 올인원 PC보안 서비스<br>(PC백신+정보유출예방)",
+    "benefitPreview": "무료 기업용 PC백신 제공<br> 온라인 데모 신청 시 사은품 혜택",
     "tag1": "📊 분석툴",
     "tag2": "🚲 생산성",
     "tag3": "🔒 보안",
