@@ -41,7 +41,7 @@ export default [
     "profileLink": "https://disquiet.io/@doda_tool?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%EB%8F%84%EB%8B%A4-%ED%88%B4?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": 3
+    "popularity": 4
   },
   {
     "productId": 2,
@@ -107,7 +107,7 @@ export default [
     "profileLink": "https://disquiet.io/@johnwook?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/oopy.-%EC%9A%B0%ED%94%BC?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 1
   },
   {
     "productId": 5,
@@ -129,7 +129,7 @@ export default [
     "profileLink": "https://disquiet.io/@splab_ceo?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%EC%84%BC%EB%93%9C%ED%83%80%EC%9E%84?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 3
   },
   {
     "productId": 6,
@@ -173,7 +173,7 @@ export default [
     "profileLink": "https://disquiet.io/@derek?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/뤼튼-카피라이팅/?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": ""
+    "popularity": 1
   },
   {
     "productId": 8,
@@ -327,7 +327,7 @@ export default [
     "profileLink": "https://disquiet.io/@stauter?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/스타우터/?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": 3
+    "popularity": 4
   },
   {
     "productId": 15,
@@ -415,7 +415,7 @@ export default [
     "profileLink": "https://disquiet.io/@shawnice?utm_source=makerkit",
     "productLink": "https://disquiet.io/product/%EB%AF%B8%EB%9D%BC%ED%81%B4%EB%82%98%EC%9E%87?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
-    "popularity": 1
+    "popularity": 4
   },
   {
     "productId": 19,
@@ -590,6 +590,72 @@ export default [
     "profileRole": "PM @effi.co",
     "profileLink": "https://disquiet.io/@dgchoi",
     "productLink": "https://disquiet.io/product/effi",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
+  },
+  {
+    "productId": 27,
+    "productName": "땡쓰",
+    "productPreview": "B2B 급여 선지급 서비스",
+    "benefitPreview": "제휴 즉시 예치금 한도 500만원 지원, <br> 3개월 동안 수수료 없이 무료로 사용 가능",
+    "tag1": "💰 금융",
+    "tag2": "📷 라이프스타일",
+    "tag3": "",
+    "productDetail": "안녕하세요, 신개념 금융복지 서비스 '땡쓰' 입니다. <br> '땡쓰'와의 제휴를 통해 일한만큼 원하는 날 원하는 만큼 급여를 받을 수 있는 생활이 시작됩니다.\n\n변화하는 시대, 탄력적으로 근무 하는데, 왜 탄력적으로 급여를 받을 수는 없을까요?<br>이러한 고민에서 시작해, 월급 받는 즐거움을 한 달에 한 번이 아닌, 원하는 만큼 얻을 수 있게 하는 서비스를 만들었습니다.<br>한 달에 최대 급여의 50%까지 땡겨쓰기가 가능하며, 건강보험조회를 통해 자동으로 근무정보가 책정됩니다.",
+    "benefitDetail": "1. 제휴 즉시 예치금 한도 500만원 지원 <br> 2. 3개월 동안 수수료 없이 무료로 사용 가능",
+    "isMakerlog": 0,
+    "makerlogTitle": "",
+    "makerlogPreviewtext": "",
+    "makerlogLink": "",
+    "profileImg": "https://assets.disquiet.io/images/profile/e62aa2fef4e1361fd41d37c951ef2ba2fbd99c20d8bf568db34dcfd579631865",
+    "profileName": "Reen",
+    "profileRole": "마케터 @주식회사 기빙데이즈",
+    "profileLink": "https://disquiet.io/@leehreen?utm_source=makerkit",
+    "productLink": "https://disquiet.io/product/%EB%95%A1%EC%93%B0?utm_source=makerkit",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
+  },
+  {
+    "productId": 28,
+    "productName": "서베이지",
+    "productPreview": "대학(원)생을 위한 서베이 플랫폼<br>서베이를 이지하게!",
+    "benefitPreview": "10% 할인 혜택 제공",
+    "tag1": "✏️ 교육",
+    "tag2": "👫 소셜",
+    "tag3": "",
+    "productDetail": "대학(원)생의 설문조사 제작, 배포 과정의 불편함과 어려움을 해결하는 '서베이지'입니다.<br>✅ 설문 응답 서비스: 설문조사를 제작한 후, 설문에 응답해줄 사람을 구하는 배포 과정에 어려움을 겪는 분들을 위해, 서베이지 패널이 항상 대기 중입니다!<br>✅ 설문 템플릿: Google Form을 이용한 설문조사 제작이 어려운 분들을 위해, (1) 사용경험 설문조사, (2) 인식 설문조사 템플릿을 배포합니다. (웹사이트 오픈 기념, 무료!)",
+    "benefitDetail": "서베이지의 1) 설문 응답 서비스, 2) 인터뷰 중개 서비스, 3) 베타테스터 모집 서비스를 이용하고 싶은 분들께 디스콰이엇 전용 쿠폰 발행을 통해 10% 할인 혜택을 제공해드리겠습니다! (24시간 응대를 도와드리고 있으니, 편하게 문의 주세요!)",
+    "isMakerlog": 1,
+    "makerlogTitle": "2022 상반기 팀 회고 - 서베이지",
+    "makerlogPreviewtext": "최소 6개월에 한번씩은 팀이 다같이 하루종일 그간 했던 활동과 성과를 돌아보고, 배우고 느낀 점을 공유하는 시간을 가지는 것이 좋다고 생각해요 (하반기부터는 분기별로 해볼까 생각 중입니다) 그래서 7월 1일, 팀원들과 다함께 상반기 회고를 진행했고 해당 내용을 메이커로그로 남겨보려 합니다. 글을 쓰기 전, 문득 떠올라 연초에 썼던 2021년 회고 글을 다시 읽어보니 감회가 새롭네요.",
+    "makerlogLink": "https://disquiet.io/@songforefa/makerlog/1018?utm_source=makerkit",
+    "profileImg": "https://assets.disquiet.io/images/profile/12c5a61975a35c7f1b8f40e802240b04a2111c9cb174bd268ce33d841a1c91aa",
+    "profileName": "송다예 Daye Song",
+    "profileRole": "CEO @턴업컴퍼니 (서베이지, 렛츠인턴)",
+    "profileLink": "https://disquiet.io/@songforefa?utm_source=makerkit",
+    "productLink": "https://disquiet.io/product/%EC%84%9C%EB%B2%A0%EC%9D%B4%EC%A7%80-surveasy?utm_source=makerkit",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
+  },
+  {
+    "productId": 29,
+    "productName": "엑소스피어",
+    "productPreview": "SaaS형 올인원(PC백신+정보유출예방) <br>PC보안 서비스",
+    "benefitPreview": "무료 기업용 PC백신 제공, 온라인 데모 신청 시 사은품, 유료플랜 1개월 체험권 증정",
+    "tag1": "📊 분석툴",
+    "tag2": "🚲 생산성",
+    "tag3": "🔒 보안",
+    "productDetail": "1. 🛡️ 국내 유일 올인원 보안 서비스 <br>국내에서 유일하게 기업용 PC백신과 정보유출예방(DLP)을 하나의 에이전트로 제공합니다. 또한, macOS를 지원해서 하나의 PC보안 서비스로 사내 보안 설계를 끝낼 수 있습니다!<br>2. 💸 국내 유일 무료 기업용 PC백신<br>여러분은 기업에서 개인용 백신을 사용하는 것이 불법임을 알고 계신가요? 엑소스피어는 모든 기업이 최소한의 정보보안 시스템을 도입할 수 있도록 기업용 PC백신을 무료로 제공하고 있습니다.<br>3. 👨‍💼 보안 비전문가를 위한 보안 서비스<br>엑소스피어가 '보안 솔루션'이 아닌 '보안 서비스'인 이유는 강력한 보안 기능 위에 사용자 편의성을 추가했기 때문입니다. 엑소스피어의 개선된 UI/UX와 온라인 데모 + 실시간 보안 전문가 상담으로 누구나 사내 정보보안을 시작할 수 있습니다!<br>4. 💻 합리적인 SaaS 보안 서비스<br>엑소스피어는 동일 기능의 타사 서비스 대비 50% 이상 저렴한 비용으로 이용이 가능하며, SaaS 서비스 이기 때문에 도입과 해지가 당일 1~2시간 안에 완료 됩니다.",
+    "benefitDetail": "1. 무제한 무료 기업용 PC백신 제공<br>2. 온라인 데모 신청 시 사은품 증정<br>3. 요청 시 유료플랜 1개월 체험권 증정",
+    "isMakerlog": 0,
+    "makerlogTitle": "",
+    "makerlogPreviewtext": "",
+    "makerlogLink": "",
+    "profileImg": "https://assets.disquiet.io/images/profile/65f57b3b5fdc22c7c2ea8d1062ae0e9343443c532a5bc7f8afde090a15be982a",
+    "profileName": "Changha Park",
+    "profileRole": "마케팅 매니저 @엑소스피어",
+    "profileLink": "https://disquiet.io/@len?utm_source=makerkit",
+    "productLink": "https://disquiet.io/product/%EC%97%91%EC%86%8C%EC%8A%A4%ED%94%BC%EC%96%B4?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
     "popularity": ""
   }
