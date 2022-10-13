@@ -658,5 +658,27 @@ export default [
     "productLink": "https://disquiet.io/product/%EC%97%91%EC%86%8C%EC%8A%A4%ED%94%BC%EC%96%B4?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
     "popularity": ""
+  },
+  {
+    "productId": 30,
+    "productName": "NIZ",
+    "productPreview": "SNS와 커뮤니티에서 '키워드'로 데이터를 수집해 AI가 분석하는 소셜 모니터링 솔루션",
+    "benefitPreview": "데모 계정, 2주 무료 체험 제공",
+    "tag1": "🔮 마케팅툴",
+    "tag2": "📊 분석툴",
+    "tag3": "👫 소셜",
+    "productDetail": "#NIZ는 SNS와 커뮤니티에서 '키워드'로 데이터를 수집해 AI가 '감정(긍정/부정/중립)'과 '카테고리(가격/서비스/디자인/품질/기타)'를 분석하여 시장이나 제품, 브랜드에 대한 고객 반응을 분석하는 소셜 모니터링 솔루션입니다.",
+    "benefitDetail": "데모 계정, 2주 무료 체험 제공",
+    "isMakerlog": 1,
+    "makerlogTitle": "새롭게, 더 멋지게.. 드디어 완료!",
+    "makerlogPreviewtext": "2019년 맥도날드의 SNS에서 발생하는 VOC를 수집/분석하는 목적으로 시작된 저희 서비스는 OB맥주와 오픈이노베이션이나, 삼쩜삼 등 2020년 당시 스타트업이나 많은 기업들에게 서비스를 제공하고, 많은 피드백을 받으며 제품 개선과 미래를 고민하고 있었습니다.\n\n하지만 스타트업 특성상 생존을 우선하여 외주 사업에 뛰어들었고, 이는 우리 제품 개발의 지연이라는 슬픈 결과로 이어지게 되었죠...\n\n그리고 내부적으로도 많은 변화를 거치고 난 후,우여곡절 끝에 1.0.0 버전이 업데이트 되었지만...\n\n생각만큼 만족스러운 결과가 나오지는 않았습니다.",
+    "makerlogLink": "https://disquiet.io/@kaiden/makerlog/1902?utm_source=makerkit",
+    "profileImg": "https://assets.disquiet.io/images/profile/f399ba0b6b9d2aa2836a439d7d014ed927a9929802b0bf43c34429db8f9bbd84",
+    "profileName": "kaiden",
+    "profileRole": "Sales @Mysterico",
+    "profileLink": "https://disquiet.io/@kaiden?utm_source=makerkit",
+    "productLink": "https://disquiet.io/product/niz?utm_source=makerkit",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
   }
 ];
