@@ -680,5 +680,27 @@ export default [
     "productLink": "https://disquiet.io/product/niz?utm_source=makerkit",
     "tallyLink": "https://tally.so/r/3yPG5B",
     "popularity": ""
+  },
+  {
+    "productId": 31,
+    "productName": "페이플",
+    "productPreview": "스타트업을 위한 PG(온라인결제)서비스를 제공하며, 다양한 스타트업과 상생하고 있습니다.",
+    "benefitPreview": "페이플 가입비 면제 혜택 제공",
+    "tag1": "💰 금융",
+    "tag2": "",
+    "tag3": "",
+    "productDetail": "Payment Must Be Simple!\n페이플은 2018년 3월, 스타트업, 소상공인의 간편결제 서비스를 통해 전자결제시장을 혁신하고자 설립된 핀테크 스타트업입니다.\n\n> 초보개발자도 쉽고 편리하게 연동할 수 있는 간편결제서비스 제공\n> PG를 처음 도입하거나 PG변경을 위한 친절한 상담을 통해 최적의 선택을 하실 수 있도록 지원\n> 합리적인 수수료로 부담을 줄여 꿈을 이루고 있는 스타트업과의 상생\n\n페이플은 전자결제에 집중, 또 집중함으로써 매우 이례적으로 스타트업 최초로 금융위원회의 금융규제 샌드박스 “혁신금융서비스” 1호에 지정되어 간편출금 인증방식인 ‘SMS 출금인증방식’을 서비스 제공하고 있습니다.",
+    "benefitDetail": "- 페이플 가입비 면제 혜택을 드립니다!! \n- 페이플 서비스를 이용하면 노션, AWS, 네이버 클라우드 크래딧 제공 등 추가 혜택이 있어요!",
+    "isMakerlog": 0,
+    "makerlogTitle": "",
+    "makerlogPreviewtext": "",
+    "makerlogLink": "",
+    "profileImg": "https://assets.disquiet.io/images/profile/5421b09bec2de473e226fe6bbce1234e57becb8d87de84b5367520bc01a4e81d",
+    "profileName": "페이플",
+    "profileRole": "마케팅 @(주)페이플",
+    "profileLink": "https://disquiet.io/@paypler?utm_source=makerkit",
+    "productLink": "https://disquiet.io/product/%ED%8E%98%EC%9D%B4%ED%94%8C?utm_source=makerkit",
+    "tallyLink": "https://tally.so/r/3yPG5B",
+    "popularity": ""
   }
 ];
