@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디스콰이엇 이벤트</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+ 
+<body>
+    <nav class="navbar fixed-top bg-light">
+        <div class="container-fluid" style="background-color: none;">
+          <a class="navbar-brand" href="https://disquiet.io"><img src="d-logo.svg" style="height: 32px;"alt=""></a>
+        </div>
+      </nav>
+
+
+      <div class="container" style="max-width: 900px !important; padding: 20px;">
+      
+        <br><br><br><br>
+
+        <div>
+
+          <h2 style="text-align: center;">🎉 정창경 11 대표님들께<br>응원 연락하기</h2>
+          <p style="text-align: center;">아래 중 한 분에게 응원의 메시지를 디스콰이엇 '연락하기'로 남긴 뒤, <br>디스콰이엇 부스의 스태프에게 보여주세요. <br>굿즈가 걸려있는 룰렛을 돌릴 기회를 드립니다. <br>이 이벤트는 1인 1회만 참여 가능하며, 회원가입이 필요합니다.</p>
+          <br>
+            <div id="col-here" class="row">
+
+            </div>
+
+
+            <script type="module">
+
+              import d from "./data.js";
+              
+              console.log(d);
+
+              function printResult(){
+                document.getElementById("col-here").innerHTML = "";
+                for(let i=0; i<d.length; i++){
+                    document.getElementById("col-here").insertAdjacentHTML("beforeEnd",
+                    `
+                    <div class="col-sm-6">
+                      <div class="col-box">
+                          <div class="row profile mb-2" style="margin-bottom: 8px">
+                            <div class="col-auto">
+                              <img class="profile-img" src="https://assets.disquiet.io/` + d[i].profileImg +`" alt="Profile Image">
+                            </div>
+                          <div class="col-auto"><b style="font-size: 1.2rem">`+ d[i].name + `</b><br>` + d[i].where + `</div>
+                          </div>
+                      <div class="msg mb-2" style="color: #777">`+ d[i].description + `
+                      
+                              </div>
+                  <a href="` + d[i].profileLink + `?utm_campaign=doers11" target='_blank'><button type="button" class="btn btn-primary">연락하러 가기</button></a>
+                  </div>
+                  </div>
+              `
+                    );
+
+              };
+              console.log("prtRes Excuted");
+            };
+
+            printResult();
+
+            </script>
+            
+            
+        </div>
+        <br>
+        <div style="text-align: center;">
+        <p style="color: #777">아래에서 정창경 11 팀들의 프로덕트를 보고, 정창경 11 참가자들과 소통할 수 있어요. </p>
+        <a href="https://disquiet.io/club/jc-anf-11?sort=popular&type=all?utm_campaign=doers11">
+        <button type="button" class="btn btn-lg btn-light" style="border-color: black !important; background-color: white !important;">정주영창업경진대회 11 클럽 보러가기</button>
+        </a>
+      </div>
+
+
+
+      </div>
+      <br> 
+      <footer>
+      <div style="text-align: center; opacity: 40%;">
+        2022 Disquiet Team <br>
+        </div> <br><br>
+      </footer>
+
+</body>
+</html>
