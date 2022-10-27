@@ -7,14 +7,14 @@ export default [
       "description": "IT 프로덕트 메이커들을 위한 소셜 네트워킹 플랫폼 '디스콰이엇'",
       "profileLink": "https://disquiet.io/@hpark0011"
     },
-    // {
-    //   "no": 2,
-    //   "profileImg": "",
-    //   "name": "김정민",
-    //   "where": "CEO @LRHR",
-    //   "description": "전국 명품 수선 장인들을 한 곳에 모은 명품 수선 플랫폼 '패피스'",
-    //   "profileLink": ""
-    // },
+    {
+      "no": 2,
+      "profileImg": "images/profile/c89b6bd006642a9611b2aa7590d0d03e7d74f4b41a6730e9df6aedbd440b07a7",
+      "name": "김정민",
+      "where": "CEO @LRHR",
+      "description": "전국 명품 수선 장인들을 한 곳에 모은 명품 수선 플랫폼 '패피스'",
+      "profileLink": "jmkim"
+    },
     {
       "no": 3,
       "profileImg": "images/profile/ee9a795cf2797d1356f8778a609d90a43f0c97b098892f24eb5a07d7de50acdf",
