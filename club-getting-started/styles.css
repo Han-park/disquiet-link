@@ -1,0 +1,41 @@
+.mlink{
+    color: black !important;
+}
+
+body{
+    background-color: #1B1B1B;
+    color: white;
+}
+
+.contact:hover{
+    text-decoration: underline !important;
+}
+
+.pCard{
+    padding: 10px;
+   
+}
+
+.pFace{
+    border-radius: 8px;
+    border-color: white;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #2e2e2e8b;
+}
+
+.feature-list{
+    color:  rgb(200, 200, 200);
+    line-height: 180%;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+}
